@@ -5,7 +5,10 @@
 ## yarn dev 
 
 # ENDPOINTS 
-## localhost: 
+## localhost: 3000
+## /dev
+## /json
 
 # DEPLOY 
-## yarn build
+## now
+## now-start // runs automatically
