@@ -1,8 +1,13 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req,res) => {
-	res.send('hello, world!')
+app.get('/dev', (req,res) => {
+	res.send('Hello, World!')
 })
 
-app.listen(3000)
+const PORT = 3000; 
+console.log(`Listening on PORT: ${PORT}`)
+
+app.listen(PORT)
+
+app.use(express.static('static'))
