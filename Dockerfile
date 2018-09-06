@@ -3,9 +3,9 @@ FROM node:8.11-alpine
 RUN apk update
 
 ENV NODE_ENV production
-ENV PORT 3003
+ENV PORT 3000
 
-EXPOSE 3003
+EXPOSE 3000
 
 WORKDIR /usr/src/node-app
 
@@ -15,4 +15,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["npm", "start"]
+CMD ["npm", "now-start"]
