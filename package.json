@@ -5,7 +5,8 @@
   "author": "mattperkins <github@mattperkins.com>",
   "license": "MIT",
   "scripts" : {
-	"start" : "node ."
+	"now-start": "node .",
+	"dev" : "nodemon ."
 },
   "dependencies": {
     "express": "^4.16.3"
