@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts" : {
 	"start": "node .",
-	"dev" : "nodemon ."
+	"dev" : "nodemon .",
+  "deploy": "now && now alias"
 },
   "dependencies": {
     "express": "^4.16.3"
