@@ -10,5 +10,6 @@
 ## /json
 
 # DEPLOY 
-## now
-## now-start // runs automatically
+## now // now-start runs automatically
+### or if domain has alias
+## yarn deploy // also runs alias <subDomain> (see package.json)
