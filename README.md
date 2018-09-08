@@ -13,3 +13,5 @@
 ## now // now-start runs automatically
 ### or if domain has alias
 ## yarn deploy // also runs alias <subDomain> (see package.json)
+
+## change .env filename in now.json (e.g .env.staging)

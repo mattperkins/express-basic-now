@@ -1,3 +1,4 @@
 {
-  "alias":"DOMAIN_NAME"
+  "alias":"expressbasic.libtrig.com",
+  "dotenv": ".env"
 }
