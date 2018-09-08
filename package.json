@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts" : {
-	"start": "node .",
-	"dev" : "nodemon .",
-  "deploy": "now && now alias"
-},
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "deploy": "now && now alias"
+  },
   "dependencies": {
+    "dotenv": "^6.0.0",
     "express": "^4.16.3"
   }
 }
