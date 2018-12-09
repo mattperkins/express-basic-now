@@ -1,15 +1,15 @@
 {
-  "name": "express-basic-now",
+ "name": "express-basic-now",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon .",
-    "deploy": "now && now alias"
+  "start": "NODE_ENV=production node .",
+  "dev": "NODE_ENV=development nodemon .",
+  "deploy": "now && now alias"
   },
   "dependencies": {
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3"
+    "express": "4.16.4",
+    "dotenv": "6.2.0"
   }
 }
