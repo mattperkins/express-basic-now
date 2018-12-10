@@ -15,7 +15,7 @@
 ### or if domain has alias
 ## yarn deploy // also runs alias <subDomain> (see package.json)
 
-## Rename Dockfile to Dockerfile for Github push/CI deployment
+## Rename --Dockfile to Dockerfile for Github push/CI deployment
  
-## Add .env filename in now.json (e.g {"dotenv" ".env.staging"} )
+## Rename --now.json and update .env : (e.g {"dotenv" ".env.staging"} )
 
