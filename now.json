@@ -1,4 +1,5 @@
 {
   "alias":"expressbasic.libtrig.com",
-  "dotenv": ".env"
+  "dotenv": ".env",
+  "type": "npm"
 }
