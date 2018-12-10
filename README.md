@@ -14,4 +14,6 @@
 ### or if domain has alias
 ## yarn deploy // also runs alias <subDomain> (see package.json)
 
-## change .env filename in now.json (e.g .env.staging)
+## Add .env filename in now.json (e.g {"dotenv" ".env.staging"} )
+## Redundant Dockerfile
+
